@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.main {
+  padding: 0 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px 20px;
+}
+
+.creative {
+  padding-left: 50px;
+}
+
+.sign {
+  padding-left: 910px;
+}
+
+span {
+  color: #6135D0;
+}
+
+.rasm {
+  margin-top: 50px;
+  width: 600px;
+}
+
+.global {
+  display: flex;
+}
+
+.local {
+  padding-left: 150px;
+}
+
+.welcome {
+  line-height: 5px;
+  font-size: 50px;
+}
+
+.login {
+  color: #89888D;
+}
+
+.inputlar {
+  padding-top: 20px;
+}
+
+input {
+  width: 500px;
+  height: 70px;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  font-size: 20px !important;
+}
+
+.username {
+  border: 2px solid #6135D0;
+}
+
+.knopka {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #6135D0;
+  padding: 25px 75px;
+  border-radius: 40px;
   color: white;
+  font-size: 20px;
+  border: none;
+  margin-right: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.ikonka {
+  padding-top: 20px;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ikontext {
+  padding-right: 60px;
+}
+
+.ikonrasm {
+  width: 60px;
+  height: 60px;
+  padding-left: 0px;
+}
+
+.ikonrasm:nth-child(3) {
+  width: 120px;
+  height: 60px;
+}
+
+.ikonrasm:nth-child(4) {
+  width: 50px;
+  height: 60px;
 }
